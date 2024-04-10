@@ -1,0 +1,171 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+
+
+body {
+    margin: 0;
+    font-family: 'netflix_sansregular', sans-serif;
+    background-color: black;
+}
+
+#logo {
+    width: 150px;
+}
+
+#container {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(https://assets.nflxext.com/ffe/siteui/vlv3/530fc327-2ddb-4038-a3f0-2da2d9ccede1/81c68250-e0f1-4cd8-bf2d-4fd8222163de/BR-pt-20230619-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 40px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+    padding: 4px 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.712);
+    margin-right: 10px ;
+    border-radius: 5px;
+    font: inherit;
+}
+
+#btn-enter {
+    padding: 7px 15px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font: inherit;
+    cursor: pointer;
+}
+
+#main {
+    color: white;
+    margin-top: 150px;
+    margin-left: 100px;
+    text-align: center;
+
+}
+
+#title-main {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.subtitle-main {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h3 {
+    flex-direction: row;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+form {
+    /* PARA CENTRALIZAR O INPUT */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input {
+    height: 50px;
+    width: 350px;
+    background-color: rgba(29, 29, 29, 0.488);
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0px 10px;
+    color: white;
+}
+
+#btn-start {
+    height: 50px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    padding: 2px 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #e50914 ;
+    border: none;
+    border-radius: 5px;
+}
+
+#box-container {
+    width: 100%;
+    height: 2250px;
+    margin: 0 auto;
+    margin-top: 250px;
+    background: black;
+    border-radius: 5px;
+}
+
+.box-info {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+}
+
+.box-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.subtitle-main {
+    font-size: 20px;
+}
+
+.shadow {
+    width: 100%;
+    height: 7px;
+    background-color:rgba(128, 128, 128, 0.322);
+    margin: 0 auto;
+}
+
+#card {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background: rgb( 14, 27, 79 );
+    background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
+    box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin: 0px 74px;
+    color: white;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 25%;
+}
+
+.subtitle-card {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+}
+
+.subtitle-card2 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.link {
+    cursor: pointer;
+    color: #448ef4;
+    justify-content: center;
+}
