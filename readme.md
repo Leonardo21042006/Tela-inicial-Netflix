@@ -3,7 +3,7 @@
 ![preview](./.github/preview.png)
 
 
-[🔗 Clique aqui para acessar](https://leonardo21042006.github.io/projeto-curso-udemy/)
+[🔗 Clique aqui para acessar](https://leonardo21042006.github.io/Tela-inicial-Netflix-Atual/)
 
 ## 🛠️ Tecnologias 
 
